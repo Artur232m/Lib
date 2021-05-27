@@ -23,7 +23,8 @@ public class Author {
     public String getLastName() {
         return lastName;
     }
-    public String toString(){
-        return "Author -" + count++ + "\nid: " + getId() +"\nName: " + getName() + "\nLastName: " + getLastName();
+
+    public String toString() {
+        return "Author -" + count++ + "\nid: " + getId() + "\nName: " + getName() + "\nLastName: " + getLastName();
     }
 }

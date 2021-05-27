@@ -27,12 +27,10 @@ public class Library {
     }
 
     public boolean setBooks(Book book, int id) {
-        if (id != book.getId()){
+        if (id != book.getId()) {
             System.out.println("Книга добавлена");
             return books.add(book.toString());
-
-
-        }else {
+        } else {
             System.out.println("Книга с таким id уже в системе");
         }
         return false;

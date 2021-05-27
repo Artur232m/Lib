@@ -1,5 +1,4 @@
 package com.company;
-
 public enum Genre {
     EPIC(0, "epic"),
     NOVEL(1, "novel"),
@@ -22,4 +21,5 @@ public enum Genre {
     public String getGenre() {
         return genre;
     }
+
 }
