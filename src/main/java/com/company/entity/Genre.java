@@ -1,4 +1,4 @@
-package com.company;
+package com.company.entity;
 public enum Genre {
     EPIC(0, "epic"),
     NOVEL(1, "novel"),
