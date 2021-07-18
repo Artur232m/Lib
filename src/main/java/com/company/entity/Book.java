@@ -1,12 +1,19 @@
 package com.company.entity;
 
+import javax.persistence.*;
 import java.time.LocalDate;
-
+@Entity
+@Table(name = "books")
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
+    @Enumerated(EnumType.STRING)
     private Genre genre;
+    @ManyToOne
     private Author author;
+    @Column(name = "date")
     private LocalDate dateCreated;
 
     public Book(int id, String title, Genre genre, Author author, LocalDate dateCreated) {

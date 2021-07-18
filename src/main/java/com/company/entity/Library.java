@@ -1,11 +1,18 @@
 package com.company.entity;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-
+@Entity
+@Table(name = "library")
 public class Library {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @Column(name = "name-lib")
     private String nameLibrary;
     private String country;
+    @OneToMany
     private List<Book> books = new ArrayList<>();
 
     public void setNameLibrary(String nameLibrary) {

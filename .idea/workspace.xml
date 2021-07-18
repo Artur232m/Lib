@@ -5,54 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07eb53cc-7481-45dc-afbc-3cabf682e07a" name="Default Changelist" comment="PART1/27.05">
-      <change afterPath="$PROJECT_DIR$/../../Applications/MavLib/LibM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Applications/MavLib/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Applications/MavLib/src/main/java/util/JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/impl/AuthorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/impl/LibraryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/LibraryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/util/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FreeItPart2/FreeItPart2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FreeItPart2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FreeItPart2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FreeItPart2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FreeItPart2/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/artifacts/demo_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/artifacts/demo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/entity/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/util/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/util/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +110,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../06.03.SkillBox/java_basics/08_ExceptionsDebuggingAndTesting/homework_8.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -165,6 +127,19 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

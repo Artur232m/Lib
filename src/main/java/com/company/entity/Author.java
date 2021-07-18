@@ -1,20 +1,17 @@
 package com.company.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "Author", schema = "", catalog = "library")
+@Table(name = "Author")
 public class Author {
     @Id
-    @Column(name = "id",nullable = false,insertable = true, updatable = true)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "name_author", nullable = true, insertable = true, updatable = true)
+    @Column(name = "name_author")
     private String name;
-    @Column(name = "lastname_author", nullable = true, insertable = true, updatable = true)
+    @Column(name = "lastname_author")
     private String lastName;
 
     public Author(int id, String name, String lastName) {

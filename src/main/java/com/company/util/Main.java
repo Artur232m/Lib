@@ -6,6 +6,8 @@ import com.company.entity.Genre;
 import com.company.entity.Library;
 import com.company.impl.LibraryServiceImpl;
 import com.company.service.LibraryService;
+
+import org.apache.logging.log4j.core.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
@@ -15,6 +17,8 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 
 import java.time.LocalDate;
+import java.util.logging.LogManager;
+
 
 public class Main {
 

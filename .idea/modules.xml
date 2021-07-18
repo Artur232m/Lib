@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lib.iml" filepath="$PROJECT_DIR$/Lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../Applications/MavLib/LibM.iml" filepath="$PROJECT_DIR$/../../Applications/MavLib/LibM.iml" />
     </modules>
   </component>
 </project>
