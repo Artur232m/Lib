@@ -1,12 +1,19 @@
-package com.company;
+package com.company.entity;
 
+import javax.persistence.*;
 import java.time.LocalDate;
-
+@Entity
+@Table(name = "books")
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
+    @Enumerated(EnumType.STRING)
     private Genre genre;
+    @ManyToOne
     private Author author;
+    @Column(name = "date")
     private LocalDate dateCreated;
 
     public Book(int id, String title, Genre genre, Author author, LocalDate dateCreated) {
@@ -21,42 +28,23 @@ public class Book {
         return id;
     }
 
-//    public void setId(int id) {
-//        this.id = id;
-//    }
-
     public String getTitle() {
         return title;
     }
-
-//    public void setTitle(String title) {
-//        this.title = title;
-//    }
 
     public Genre getGenre() {
         return genre;
     }
 
-//    public void setGenre(Genre genre) {
-//        this.genre = genre;
-//    }
-
     public Author getAuthor() {
         return author;
     }
-
-//    public void setAuthor(Author author) {
-//        this.author = author;
-//    }
 
     public LocalDate getDateCreated() {
         return dateCreated;
     }
 
-//    public void setDateCreated(LocalDate dateCreated) {
-//        this.dateCreated = dateCreated;
-//    }
-    public String toString(){
+    public String toString() {
         return "id : " + getId() + "\nTitle: " + getTitle() + "\nGenre :" + getGenre() + "\nDate: " + getDateCreated() +
                 "\nAuthor: " + getAuthor();
     }
